@@ -1,4 +1,4 @@
-package org.example;
+package nl.dhoang;
 
 public class Main {
     public static void main(String[] args) {
