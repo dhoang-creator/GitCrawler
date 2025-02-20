@@ -13,10 +13,10 @@ public record ErrorPage(URI url, Exception ex) implements Page {
     }
 
     @Override
-    public boolean equals(Objects other) {
+    public boolean equals(Object other) {
             return other == this
-                            || other instanceof GitHubIssuePage page
-                            && this.url.equals(page.url());
+                        || other instanceof GitHubIssuePage page
+                        && this.url.equals(page.url());
     }
 
     @Override
